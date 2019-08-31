@@ -108,6 +108,11 @@
 	html {
 		font-size: 12px;
 	}
+
+	.about {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
 }
 
 @media screen and (max-width: 512px) {
