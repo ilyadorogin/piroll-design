@@ -113,6 +113,16 @@
 		padding-top: 50px;
 		padding-bottom: 50px;
 	}
+
+	.skills {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+	.skills-content {
+		width: 75%;
+	}
+
 }
 
 @media screen and (max-width: 512px) {
@@ -130,6 +140,10 @@
 		font-size: 2.3rem;
 	}
 }
+
+
+
+
 
 @media screen and (max-height: 650px) {
 	#first {

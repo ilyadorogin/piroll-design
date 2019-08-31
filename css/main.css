@@ -131,6 +131,7 @@ h2 {
 h3 {
 	font-size: 0.75rem;
 	line-height: 1.875rem;
+	text-transform: uppercase;
 }
 
 .container {
@@ -232,3 +233,41 @@ main {
 	width: 625px;
 	align-items: center;
 }
+
+.loading {
+	width: 85%;
+	height: 3px;
+	background: #d8d8d8;
+}
+
+.loading-progress {
+	height: 100%;
+	background: #10c9c3;
+}
+
+#loading-one {
+	width: 75%;
+}
+#loading-two {
+	width: 90%;
+}
+#loading-three {
+	width: 65%;
+}
+
+.skills {
+	background: #f8f9f9 url(../img/bg-skills.png) no-repeat right / contain;
+	padding: 150px 15px;
+}
+
+.skills .container {
+	width: 100%;
+	
+}
+
+.skills-content {
+	width: 50%;
+	flex-direction: column;
+}
+
+	
