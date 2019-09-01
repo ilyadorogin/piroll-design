@@ -10,6 +10,13 @@
 	}
 }
 
+@media screen and (max-width: 952px) {
+	.result {
+		width: 50%;
+	}
+
+}
+
 @media screen and (max-width: 700px) {
 	nav {
 		display: none;
@@ -118,6 +125,11 @@
 		padding-top: 50px;
 		padding-bottom: 50px;
 	}
+	
+	.results {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
 
 	.skills-content {
 		width: 75%;
@@ -134,6 +146,14 @@
 		width: 100%;
 	}
 }
+
+@media screen and (max-width: 400px) {
+	.result {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+}
+
 
 @media screen and (max-width: 330px) {
 	.text-container h1 {

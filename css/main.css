@@ -134,6 +134,13 @@ h3 {
 	text-transform: uppercase;
 }
 
+h4 {
+	font-size: 1.125rem;
+	line-height: 1.875rem;
+	text-transform: uppercase;
+	color: white;
+}
+
 .container {
 	display: flex;
 	max-width: 1170px;
@@ -270,4 +277,40 @@ main {
 	flex-direction: column;
 }
 
-	
+.results {
+	background: #10c9c3;
+	padding: 100px 15px;
+}
+
+.result {
+	width: 25%;
+	display: flex;
+	justify-content: center;
+}
+
+.result-text h4:last-of-type {
+	font-size: 0.75rem;
+}
+
+.results .container {
+	width: 100%;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.result-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 25px;
+	width: 11rem;
+}
+
+.result img {
+	object-fit: contain;
+}
+
+.result:nth-child(1), 
+.result:nth-child(2) {
+	margin-bottom: 20px;
+}
