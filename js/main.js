@@ -23,6 +23,24 @@ $(document).ready(function(){
 		});
 
 
+		$('.galery-holder').slick({
+		    responsive: [
+		    	{
+		    		breakpoint: 1024,
+				      settings: "unslick"
+		    	},
+		    	{
+		    		breakpoint: 700,
+				      settings: {
+				      		arrows: false,
+							  infinite: true,
+							  speed: 300,
+							  slidesToShow: 1,
+							  adaptiveHeight: true
+				      }
+		    	}
+		    ]
+		  });
 
 });
 
@@ -36,3 +54,4 @@ $(window).scroll(function() {
 
     }
 });
+

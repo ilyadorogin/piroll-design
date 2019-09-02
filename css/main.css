@@ -141,6 +141,10 @@ h4 {
 	color: white;
 }
 
+p {
+	color: #787878;
+}
+
 .container {
 	display: flex;
 	max-width: 1170px;
@@ -313,4 +317,62 @@ main {
 .result:nth-child(1), 
 .result:nth-child(2) {
 	margin-bottom: 20px;
+}
+
+.galery .container {
+	max-width: none;
+	width: 100%;
+	display: flex;flex-direction: column;
+	justify-content: center;
+}
+
+.galery h3 {
+	height: 100px;
+	display: flex;
+	align-items: center;
+	background: #f5f5f5;
+	width: 100%;
+	justify-content: center;
+}
+
+.galery-item {
+	background: #dddddd url() no-repeat center center / cover;
+	
+	width: 25%; 
+	
+}
+
+.galery-holder .galery-item {
+	height: 300px;
+}
+
+.galery-item:nth-child(1) {
+	background-image: url("https://hotline.ua/img/tx/197/1974050635.jpg");
+}
+.galery-item:nth-child(2) {
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLFWMykBvQ7ph3A5R79pcckKRvXNgVISewgf-giwtt0R81QcpFnA");
+}
+.galery-item:nth-child(3) {
+	background-image: url("https://gagadget.com/media/post_big/mbp2016-1.jpg");
+}
+.galery-item:nth-child(4) {
+	background-image: url("https://cdn.shopify.com/s/files/1/0392/5045/products/matte-screen-protector-for-macbook-pro-15-20162017.jpg?v=1551144547");
+}
+.galery-item:nth-child(5) {
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOXg8XU-QWkX2zT8fpQgb2aEj26ckWdsZkE4I6LvOZNUtRpeFaIA");
+}
+.galery-item:nth-child(6) {
+	background-image: url("https://s.fraza.ua/images/2019/06/21/100604_apph-1.jpg");
+}
+.galery-item:nth-child(7) {
+	background-image: url("https://hotline.ua/img/tx/153/1534763855.jpg");
+}
+.galery-item:nth-child(8) {
+	background-image: url("https://c.dns-shop.ru/thumb/st1/fit/800/650/72f224748f290b0b2969bf2fcbe86cb0/0965c4a52cb6bd2021c77a60011e8c85e433682cc97e54b8ca9c1d15a6942a35.jpg");
+}
+
+.galery-holder {
+	display: flex;
+	flex-wrap: wrap;
+	
 }

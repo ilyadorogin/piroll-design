@@ -8,6 +8,10 @@
 		text-align: center;
 		width: 75%;
 	}
+
+	.galery-holder .galery-item {
+		height: 200px;
+	}
 }
 
 @media screen and (max-width: 952px) {
@@ -73,8 +77,6 @@
 		transform: rotate(-45deg);
 	}
 
-	
-
 	.burger-nav_active {
 		display: flex;
 		flex-direction: column;
@@ -107,6 +109,14 @@
 
 	html {
 		font-size: 14px;
+	}
+
+	.galery-holder .galery-item {
+		height: 320px;
+	}
+
+	.galery h3 {
+		display: none;
 	}
 
 }
