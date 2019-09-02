@@ -26,7 +26,7 @@ $(document).ready(function(){
 		$('.galery-holder').slick({
 		    responsive: [
 		    	{
-		    		breakpoint: 1024,
+		    		breakpoint: 10000,
 				      settings: "unslick"
 		    	},
 		    	{
