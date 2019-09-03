@@ -21,6 +21,24 @@
 
 }
 
+@media screen and (max-width: 850px) and (max-height: 500px) {
+/*	.process {
+		position: relative;
+	}*/
+
+	.process-video {
+		/*height: 300px;*/
+		/*position: absolute;*/
+		height: 70vh;
+	}
+}
+@media screen and (max-width: 850px) and (min-height: 500px) {
+	.process-video {
+		height: 300px;
+		
+	}
+}
+
 @media screen and (max-width: 700px) {
 	nav {
 		display: none;
@@ -119,6 +137,12 @@
 		display: none;
 	}
 
+}
+
+@media screen and (max-width: 600px) {
+	.about .container h2, .about .container p { 
+		width: 100%;
+	}
 }
 
 @media screen and (max-width: 600px) {

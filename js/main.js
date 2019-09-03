@@ -42,6 +42,11 @@ $(document).ready(function(){
 		    ]
 		  });
 
+		$('.video-controlls').on('click', function(e) {
+			e.preventDefault;
+		  	$('.video-controlls').addClass('disp-none');
+		});
+
 });
 
 $(window).scroll(function() {

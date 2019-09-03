@@ -98,6 +98,8 @@ body {
 
 a, a:hover, a:visited, a:focus, a:active {
 	text-decoration: none;
+	color: black;
+	cursor: pointer;
 }
 
 nav {
@@ -162,6 +164,37 @@ header, section {
 	justify-content: center;
 }
 
+header a {
+	user-select: none;
+
+}
+
+nav a:hover,
+nav a:focus {
+	color: #10c9c3;
+}
+
+header a:active {
+	transform: translateY(1px);
+   	filter: saturate(150%);
+}
+
+.button:hover {
+	box-shadow: inset 0 -5px 10px 1px #00000064;
+}
+.button:focus {
+	border: solid 1px;
+}
+
+.button:active {
+	transform: translateY(1px);
+   	filter: saturate(150%);
+}
+
+.button {
+	user-select: none;
+}
+
 .header_scrolled {
 		position: fixed;
 		background: rgba(102, 102, 102, 0.8);
@@ -219,7 +252,7 @@ main {
 
 }
 
-.button {
+a.button {
 	text-transform: uppercase;
 	padding: 1.375rem 2.8125rem;
 	background: #10c9c3;
@@ -326,18 +359,28 @@ main {
 	justify-content: center;
 }
 
-.galery h3 {
+.galery-load-more-btn {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 0.75rem;
+	line-height: 1.875rem;
+	text-transform: uppercase;
+	color: #8e8e8e;
 	height: 100px;
 	display: flex;
 	align-items: center;
 	background: #f5f5f5;
 	width: 100%;
 	justify-content: center;
+	user-select: none;
+}
+
+.galery-load-more-btn:active {
+	background: #f0f0f0;
 }
 
 .galery-item {
 	background: #dddddd url() no-repeat center center / cover;
-	
 	width: 25%; 
 	
 }
@@ -376,3 +419,54 @@ main {
 	flex-wrap: wrap;
 	
 }
+
+/*changed*/
+.about .container { 
+	width: 100%;
+}
+.about .container h2, .about .container p { 
+	width: 625px;
+}
+
+.process-video {
+	width: 100%;
+	height: 500px;
+	
+}
+
+iframe.process-video {
+	/*position: relative;*/
+	/*z-index: -1;*/
+}
+
+.process {
+	position: relative;
+}
+
+.video-controlls {
+	position: absolute;
+	z-index: 1;
+	bottom: 0;
+	left: 0;	
+	background: #e9e9e9 url(https://lightbox-prod.imgix.net/images/uploads/1524001021276-adventure-time-_16x9_1920x1080_showpage.jpg) no-repeat center center / cover;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.play-button {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background: #10c9c3;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.disp-none {
+	display: none;
+}
+
