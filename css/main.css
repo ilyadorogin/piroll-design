@@ -415,7 +415,7 @@ a.button {
 	
 }
 
-/*changed*/
+/*.about changed*/
 .about .container { 
 	width: 100%;
 }
@@ -591,7 +591,48 @@ iframe.process-video {
 	width: 100%;
 }
 
-/*.clients-holder img {
-	height: 70px;
-	width: auto;
+.order-section {
+	background: #f5f5f5;
+}
+
+.order-form {
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.cell {
+	width: 100%;
+	border: none;
+	padding: 1.25rem;
+	background: #fff;
+	margin-bottom: 1.875rem;
+
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 400;
+	font-size: 0.9375rem;
+	line-height: 1.5rem;
+	color: #787878;
+}
+/**/
+.cell.cell-row {
+	width: 1px;
+	flex-grow: 1;
+}
+
+.cell-row:nth-child(1) {
+	margin-right: 0.9375rem;
+}
+
+.cell-row:nth-child(2) {
+	margin-left: 0.9375rem;
+}
+
+.comment {
+	height: 10.625rem;
+}
+
+/*.act.button {
+	margin: 0 auto;
 }*/
+

@@ -239,6 +239,13 @@
 	.clients-holder img:last-child {
 		margin-bottom: 0px;
 	}
+
+	.order-form .cell-row {
+		margin-right: 0;
+		margin-left: 0;
+		width: 100%;
+	}
+
 }
 
 @media screen and (max-width: 400px) {
@@ -257,6 +264,9 @@
 		font-size: 2.3rem;
 	}
 }
+
+
+
 
 
 
