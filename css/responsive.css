@@ -23,6 +23,10 @@
 		/*margin-bottom: 60px;*/
 		margin-bottom: 3.75rem;
 	}
+	.product:nth-last-child(2) {
+		/*margin-bottom: 60px;*/
+		margin-bottom: 0;
+	}
 }
 
 @media screen and (max-width: 952px) {
@@ -168,6 +172,13 @@
 		display: none;
 	}
 
+	.clients-holder img {
+		height: 50px;
+	}
+
+	.clients {
+		padding: 40px 15px;
+	}
 }
 
 @media screen and (max-width: 600px) {
@@ -215,6 +226,18 @@
 
 	.text-container {
 		width: 100%;
+	}
+
+	.clients-holder {
+		flex-direction: column;
+		align-items: center;
+	}
+	.clients-holder img {
+		height: auto;
+		margin-bottom: 20px;
+	}
+	.clients-holder img:last-child {
+		margin-bottom: 0px;
 	}
 }
 

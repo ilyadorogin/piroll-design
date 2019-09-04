@@ -57,8 +57,6 @@ $(document).ready(function() {
 		  	$('.video-controlls').addClass('disp-none');
 		});
 
-
-
 });
 
 $(window).scroll(function() {
