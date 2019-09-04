@@ -321,6 +321,7 @@ a.button {
 	width: 25%;
 	display: flex;
 	justify-content: center;
+	align-items: flex-start;
 }
 
 .result-text h4:last-of-type {
@@ -505,3 +506,77 @@ iframe.process-video {
 	/*margin-bottom: 60px;*/
 	margin-bottom: 3.75rem;
 }
+
+.quote {
+	background: #10c9c3;
+	color: white;
+	padding: 180px 40px;
+	text-align: center;
+}
+
+.quote .container {
+	max-width: 810px;
+}
+
+.slick-quote {
+	width: 100%;
+}
+
+.quote-item h2 {
+	font-size: 1.75rem;
+	line-height: 2.25rem;
+	font-weight: 500;
+
+	margin-bottom: 2.1875rem;
+}
+
+.quote-item h3 {
+	line-height: 2.25rem;
+}
+
+.quote-item {
+	
+}
+
+.quote {
+	position: relative;
+}
+
+.slick-dots {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	
+	margin: 0;
+	padding: 1rem 0;
+	
+	list-style-type: none;
+	
+	position: absolute;
+	bottom: -148px;
+}
+
+.slick-dots li {
+	margin: 0 0.25rem;
+}
+
+.slick-dots button {
+	display: block;
+	width: 0.375rem;
+	height: 0.375rem;
+	padding: 0;
+	
+	border: none;
+	border-radius: 100%;
+	background-color: #b0e8e6;
+	
+	text-indent: -9999px;
+}
+
+.slick-dots li.slick-active button {
+	background-color: #ffffff;
+	width: 0.625rem;
+	height: 0.625rem;
+}
+
