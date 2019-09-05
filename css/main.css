@@ -2,55 +2,6 @@ html {
 	font-size: 16px;
 }
 
-.f11px {font-size: 11px;}
-.f12px {font-size: 12px;}
-.f13px {font-size: 13px;}
-.f14px {font-size: 14px;}
-.f15px {font-size: 15px;}
-.f16px {font-size: 16px;}
-.f17px {font-size: 17px;}
-.f18px {font-size: 18px;}
-.f19px {font-size: 19px;}
-.f20px {font-size: 20px;}
-.f21px {font-size: 21px;}
-.f22px {font-size: 22px;}
-.f23px {font-size: 23px;}
-.f24px {font-size: 24px;}
-.f25px {font-size: 25px;}
-.f26px {font-size: 26px;}
-.f27px {font-size: 27px;}
-.f28px {font-size: 28px;}
-.f29px {font-size: 29px;}
-.f30px {font-size: 30px;}
-.f31px {font-size: 31px;}
-.f32px {font-size: 32px;}
-.f33px {font-size: 33px;}
-.f34px {font-size: 34px;}
-.f35px {font-size: 35px;}
-.f36px {font-size: 36px;}
-.f37px {font-size: 37px;}
-.f38px {font-size: 38px;}
-.f39px {font-size: 39px;}
-.f40px {font-size: 40px;}
-.f41px {font-size: 41px;}
-.f42px {font-size: 42px;}
-.f43px {font-size: 43px;}
-.f44px {font-size: 44px;}
-.f45px {font-size: 45px;}
-.f46px {font-size: 46px;}
-.f47px {font-size: 47px;}
-.f48px {font-size: 48px;}
-.f49px {font-size: 49px;}
-.f50px {font-size: 50px;}
-.f51px {font-size: 51px;}
-.f52px {font-size: 52px;}
-.f53px {font-size: 53px;}
-.f54px {font-size: 54px;}
-.f55px {font-size: 55px;}
-.f56px {font-size: 56px;}
-.f57px {font-size: 57px;}
-.f58px {font-size: 58px;}
-.f59px {font-size: 59px;}
 .upper {text-transform: uppercase;}
 .aligner {
 	text-align: center;
@@ -620,19 +571,61 @@ iframe.process-video {
 	flex-grow: 1;
 }
 
-.cell-row:nth-child(1) {
-	margin-right: 0.9375rem;
-}
-
-.cell-row:nth-child(2) {
-	margin-left: 0.9375rem;
+.cell-row + .cell-row {
+	margin-left: 1.875rem;
 }
 
 .comment {
 	height: 10.625rem;
 }
 
-/*.act.button {
+footer {
+	background: black;
+	display: flex;
+	justify-content: center;
+	font-size: 0.9375rem;
+	color: #bcbcbc;
+	padding: 100px 15px;
+}
+
+footer h2 {
+	font-size: 1.125rem;
+	line-height: 4.5rem;
+	color: white;
+}
+
+.footer-content-box a {
+	color: #bcbcbc;
+}
+.footer-content-box a:hover {
+	text-decoration: underline;
+}
+
+footer .container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+} 
+
+.footer-content-box {
+	display: flex;
+	flex-direction: column;
+}
+
+.rights {
+	margin-right: auto;
+	position: relative;
+    top: -1rem;
+}
+.contacts {
 	margin: 0 auto;
-}*/
+}
+
+.footer-nav:nth-child(3) {
+	margin-right: 2rem;
+}
+
+.links {
+	margin-left: auto;
+}
 

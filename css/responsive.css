@@ -210,6 +210,11 @@
 		padding-bottom: 50px;
 	}
 
+	footer {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
 	.skills-content {
 		width: 75%;
 	}
@@ -241,10 +246,24 @@
 	}
 
 	.order-form .cell-row {
-		margin-right: 0;
 		margin-left: 0;
 		width: 100%;
 	}
+
+	
+	footer .container {
+		flex-wrap: wrap;
+	}
+	.rights {
+		width: 50%;
+		margin-bottom: 20px;
+	}
+	.contacts {
+		width: 50%;
+		margin: 0;
+		align-items: flex-end;
+	}
+
 
 }
 
